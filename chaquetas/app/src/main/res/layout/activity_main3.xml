@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:text="Servicios:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/medidas"
+                        android:layout_width="194dp"
+                        android:layout_height="140dp"
+                        app:srcCompat="@drawable/medidas" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="Realizamos su chaquetas sobre medidas"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/domicilio"
+                        android:layout_width="100dp"
+                        android:layout_height="140dp"
+                        app:srcCompat="@drawable/domicilio" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="Llevamos su chaqueta a domicilio"
+                        android:textColor="@color/black" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/verde">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Conmutador para citas de toma de medidas y domicilios:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cel: 601-315300317"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
